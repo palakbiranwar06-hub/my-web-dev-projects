@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.container{
+    display: grid;
+    grid-template-rows:repeat(8,1fr);
+    grid-template-columns:repeat(8,1fr);
+    gap: 0px;
+    height:800px;
+    width:800px;
+    background-color: rgb(181, 167, 151);
+}
+.white{
+    background-color: rgb(229, 235, 235);
+}
+.brown{
+    background-color: rgb(93, 72, 47);
+}
+body{
+    background-color: rgb(197, 180, 158);
+}
